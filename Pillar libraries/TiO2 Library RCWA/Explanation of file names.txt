@@ -1,0 +1,2 @@
+Converted means the dimensions are in the same unit as libraries generated in Lumerical.
+Truncated means that small pillars and those with low transmission have been removed.

@@ -1,0 +1,36 @@
+parameters for simulation
+dimensions in microns
+
+
+nI=1;
+nSiO2=1.4522;
+% nSi=3.5900+1i*0.0013061; % @940
+nSi=3.6200+1i*0.0028697; % @870
+nAir=1;
+hSi=0.6;
+hSub=300;
+
+Nx=20;
+Ny=20;
+
+%% Defining wavelength array
+lambda=0.87; 
+angleDeg=0; %angle of incidence
+
+periodX=0.45;
+periodY=0.45;
+
+tabX=(5:5:300)*1e-3;
+tabY=(5:5:300)*1e-3;
+
+
+structure is like:
+
+
+Air
+---
+Pillar
+---
+Substrate
+---
+Air

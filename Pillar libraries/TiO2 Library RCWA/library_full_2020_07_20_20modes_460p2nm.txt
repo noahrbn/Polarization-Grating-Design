@@ -1,0 +1,35 @@
+parameters for simulation
+dimensions in microns
+
+
+nI=1;
+nSiO2=1.4642; %from refractive index/glass/fused silica @ 460nm
+nTiO2=2.483;%from Rob's ellipsometry
+nAir=1;
+hTiO2=0.6;
+hSub=300;
+
+Nx=20;
+Ny=20;
+
+%% Defining wavelength array
+lambda=0.4602; 
+angleDeg=0; %angle of incidence
+
+periodX=0.36;
+periodY=0.36;
+
+tabX=(5:5:300)*1e-3;
+tabY=(5:5:300)*1e-3;
+
+
+structure is like:
+
+
+Air
+---
+Pillar
+---
+Substrate
+---
+Air

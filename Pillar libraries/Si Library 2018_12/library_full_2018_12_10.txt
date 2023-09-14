@@ -1,0 +1,35 @@
+parameters for simulation
+dimensions in microns
+
+nI=1;
+nSiO2=1.4512;
+nSi=3.5900+1i*0.0013061;
+nAir=1;
+hSi=0.6;
+hSub=300;
+
+%number of order of fourier decomposition
+
+Nx=15;
+Ny=15;
+
+%% Defining wavelength array
+lambda=0.94; 
+
+periodX=0.425;
+periodY=0.425;
+
+tabX=(5:5:300)*1e-3;
+tabY=(5:5:300)*1e-3;
+
+
+structure is like:
+
+
+Air
+---
+Pillar
+---
+Substrate
+---
+Air
