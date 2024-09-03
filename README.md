@@ -3,7 +3,7 @@ Design code and examples for polarization-analyzing metasurface diffraction grat
 
 This repository contains everything needed to design and analyze a polarization-analyzing grating as described in that work. Please refer to the included Jupyter notebook `Designing a metasurface polarization grating.ipynb` for instructions and an example of how this works.
 
-For any questions, please submit an issue or contact me at noahrubin [at] seas.harvard.edu or noah.rbn [at] gmail.com.
+For any questions, please submit an issue or contact me at noahrubin [at] ucsd.edu or noah.rbn [at] gmail.com.
 
 If this code aides in your academic work, please cite [[1]](#1). In any case, feel free to reach out if you use this code for any project of any kind!
 
