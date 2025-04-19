@@ -1,0 +1,9 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite it as below."
+authors:
+  - family-names: Rubin
+    given-names: Noah
+    orcid: https://orcid.org/0000-0001-8262-4447
+title: "Polarization Grating Design"
+version: 1.0
+date-released: 2023-09-14
